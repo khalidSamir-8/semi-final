@@ -1,0 +1,234 @@
+@media (max-width: 992px) {
+    
+    .header{
+        padding: 20px 30px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .hero-img{
+        max-height: 700px;
+    }
+
+    .hero-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hero-content{
+        width: 100%;
+    }
+
+    .first-h2, .second-h2{
+        font-size: 48px;
+    }
+
+    .aside{
+        width: 100%;
+        justify-content: end;
+    }
+
+    .foot-prints{
+        width: fit-content;
+    }
+
+    .hero-search{
+        width: 80%;
+        height: auto;
+        flex-wrap: wrap;
+        transform: translateY(-32px);
+        border-radius: 24px;
+        gap: 12px;
+    }
+
+    .searsh-btn{
+        width: 300px;
+        height: 56px;
+    }
+
+    .routes-section{
+        width: auto;
+    }
+
+    .routes-container{
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+    }
+
+    .routes-card{
+        width: 100%;
+    }
+
+
+    .pros-section{
+        height: auto;
+    }
+
+    .pros-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        margin-top: 20px;
+        padding: 20px
+    }
+
+    .pros-card{
+        width: calc((100% - 30px) /2);
+    }
+
+    .feedback-container{
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .footer-container{
+        margin: 0 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-container .card{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .hero-img{
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .hero-container{
+        gap: 20px;
+    }
+
+    nav{
+        order: 3;
+    }
+
+    .first-h2, .second-h2{
+        font-size: 40px;
+    }
+
+    .hero-p br{
+        display: none;
+    }
+
+    .aside{
+        width: 100%;
+        height: auto;
+        justify-content: end;
+    }
+    
+    .foot-prints{
+        flex-direction: row;
+        width: 80%;
+        padding: 16px 10px;
+    }
+
+    .hero-search{
+        width: 80%;
+        padding: 16px;
+        gap: 10px;
+    }
+
+    .filter, .searsh-btn{
+        width: 100%;
+        height: 48px;
+    }
+
+    .routes-section{
+        margin: 20px;
+    }
+
+    .routes-content > h2{
+        font-size: 32px;
+    }
+
+    .journey{
+        font-size: 16px;
+    }
+
+    .routes-container{
+        grid-template-columns: minmax(0, 1fr);
+        margin-top: 32px;
+        gap: 20px;
+    }
+
+    .routes-card > figure > img{
+        height: 200px;
+    }
+
+    .pros-section{
+        padding: 20px;
+    }
+
+    .whyy{
+        font-size: 30px;
+    }
+
+    .whyyy br{
+        display: none;
+    }
+
+    .pros-container{
+        width: auto;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .pros-card{
+        width: 46%;
+        height: auto;
+    }
+
+    .feedback-content h2{
+        font-size: 32px;
+    }
+
+    .destinations-section{
+        padding: 10px 20px;
+    }
+
+    .des-h2{
+        font-size: 38px;
+    }
+
+    .des-p2{
+        font-size: 16px;
+    }
+
+    .footer-container{
+        flex-wrap: wrap;
+        margin: 0 20px;
+        justify-content: space-between;
+    }
+
+    .footer-container .card{
+        height: fit-content;
+        width: calc((100% - 40px)/2);
+    }
+
+    footer .card input{
+        width: 60%;
+    }
+
+    footer .card button{
+        width: 30%;
+    }
+
+    footer .end{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .end-right p, .end-left{
+        font-size: 10px;
+    }
+}
